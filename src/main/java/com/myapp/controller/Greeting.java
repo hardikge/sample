@@ -14,7 +14,7 @@ import com.myapp.domain.Greeting;
 @RequestMapping("/health")
 public class Greeting {
 
-    private final AtomicLong counter = new AtomicLong();
+    private final AtomicLong accounter= new AtomicLong();
 
     @RequestMapping(method = RequestMethod.GET)
     public
