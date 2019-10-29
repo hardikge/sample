@@ -19,7 +19,7 @@ public class Greeting {
     @RequestMapping(method = RequestMethod.GET)
     public
     @ResponseBody
-    Greeting process(@RequestParam(value = "content", required = false, defaultValue = "content") String content) {
+    Greeting process(@RequestParam(value = "Hardik", required = false, defaultValue = "content") String content) {
         return new Greeting(counter.incrementAndGet(), content );
     }
 
